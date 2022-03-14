@@ -1,8 +1,11 @@
 import {CommandFactory, ContextFactory} from './factories';
 import {
     AndCommand,
-    FromCommand, LimitCommand, OffsetCommand,
-    OrCommand, OrderByCommand,
+    FromCommand,
+    LimitCommand,
+    OffsetCommand,
+    OrCommand,
+    OrderByCommand,
     QueryCommand,
     SelectCommand,
     WhereCommand,

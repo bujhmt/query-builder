@@ -1,13 +1,23 @@
 {
     "name": "query-builder",
     "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
+    "description": "Simple SQL query builder without connection to any databases",
+    "main": "dist/index.js",
     "scripts": {
         "build:watch": "tsc -w",
         "start": "tsc && node ./dist/index.js"
     },
-    "keywords": ["sql", "query", "query-builder", "builder", "SQL", "sql-builder"],
+    "repository": {
+        "url": "https://github.com/bujhmt/query-builder.git"
+    },
+    "keywords": [
+        "sql",
+        "query",
+        "query-builder",
+        "builder",
+        "SQL",
+        "sql-builder"
+    ],
     "author": "bujhmt",
     "license": "ISC",
     "devDependencies": {
