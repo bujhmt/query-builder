@@ -1,0 +1,16 @@
+{
+    "name": "query-builder",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build:watch": "tsc -w",
+        "start": "tsc && node ./dist/index.js"
+    },
+    "keywords": ["sql", "query", "query-builder", "builder", "SQL", "sql-builder"],
+    "author": "bujhmt",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^16.11.1"
+    }
+}
